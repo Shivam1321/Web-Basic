@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript",src="app.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center" style="color: black;">Simple Interest Calculator</h1>
+                <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+
+                    <div class="form-group">
+                        <label class="form-group">Principal</label>
+                        <input placeholder="Enter principal" class="form-control" type="text" id="principal">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group">Rate</label>
+                        <input placeholder="Enter rate" class="form-control" type="text" id="rate">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group">Years</label>
+                        <input placeholder="Enter number of Years" class="form-control" type="text" id="years">
+                    </div>
+                    <br>
+
+                    <div class="text-center">
+                        <button class="btn btn-primary" type="button" onclick="calculate()" class="text-centre">Calculate</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="res"></h1>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
